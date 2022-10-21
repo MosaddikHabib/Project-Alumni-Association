@@ -1,0 +1,15 @@
+/* all font links */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lobster&family=Poppins&display=swap');
+
+/* default */
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.top-logo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+}
