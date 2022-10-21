@@ -24,3 +24,13 @@
 .nav-item .nav-link {
     color: wheat;
 }
+
+/* slider custom design */
+.slider {
+    margin-top: 5px;
+}
+
+.carousel-item img {
+    width: 400px;
+    height: 400px;
+}
