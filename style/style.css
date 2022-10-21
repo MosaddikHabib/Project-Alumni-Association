@@ -10,6 +10,17 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
     width: 100px;
     height: 100px;
+}
+
+/* nav bar design */
+.nav-color {
+    background-color: rgb(56, 2, 7);
+}
+
+.nav-item .nav-link {
+    color: wheat;
 }
