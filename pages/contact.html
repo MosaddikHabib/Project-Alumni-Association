@@ -12,9 +12,11 @@
 
     <link rel="stylesheet" href="/style/style.css">
     <link rel="stylesheet" href="/style/about-style.css">
+    <link rel="stylesheet" href="/style/contact-style.css">
 </head>
 
 <body>
+    <!-- common section -->
     <section class="top-logo">
         <img src="/image/logo.png" alt="">
         <h1>BSFMSTU - Alumni Association</h1>
@@ -37,21 +39,39 @@
                             <a class="nav-link" href="/pages/contact.html">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="pages/about.html">About</a>
+                            <a class="nav-link" href="/pages/about.html">About</a>
                         </li>
 
                     </ul>
                     <div class="m2">
-                        <button type="button" class="btn btn-outline-success">Log in</button>
-                        <button type="button" class="btn btn-outline-danger">Register</button>
+                        <a href="/pages/login.html" class="btn btn-outline-success">Log In</a>
+                        <a href="/pages/regi.html" class="btn btn-outline-danger">Sign Up</a>
                     </div>
                 </div>
             </div>
         </nav>
     </header>
     <br>
-    <h1 class="recent-section">About</h1>
 
+    <!-- contact parts -->
+    <h1 class="recent-section">Contact</h1>
+
+    <form class="contact-form">
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-outline-danger">Submit</button>
+    </form>
 
     <footer class="footer-main d-flex d-flex align-items-center justify-content-center">
         <h4>COPYRIGHT &#169; ALL RIGHT RESERVED GROUP - 6</h4>
