@@ -6,14 +6,22 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* Top bar design */
 .top-logo img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
     margin-bottom: 15px;
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
+}
+
+.top-logo h1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-shadow: 2px 2px 8px #FF0000;
 }
 
 /* nav bar design */
@@ -23,11 +31,12 @@
 
 .nav-item .nav-link {
     color: wheat;
+    font-size: 1.2rem;
 }
 
 /* slider custom design */
 .slider {
-    margin-top: 10px;
+    margin-top: 1px;
     margin-bottom: 10px;
 }
 
