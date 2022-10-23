@@ -5,3 +5,14 @@
     font-size: medium;
     color: rgb(56, 2, 7);
 }
+
+.btn-outline-login {
+    color: white;
+    background: rgb(56, 2, 7);
+}
+
+.btn-outline-login:hover {
+    color: rgb(56, 2, 7);
+    ;
+    background: rgba(179, 35, 49, 0);
+}
