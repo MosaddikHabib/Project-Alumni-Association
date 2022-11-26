@@ -1,11 +1,8 @@
-.css-form-container {
-    display: flex;
-    justify-content: center;
+.custom-container {
+    /* margin-top: 10px; */
 }
 
-.css-form-container h2 {
-    color: brown;
-    text-align: center;
-    font-size: 2.1em;
-    font-weight: 800;
+.regi-form {
+    margin-top: 30px;
+    width: 30%;
 }
